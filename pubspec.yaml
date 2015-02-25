@@ -1,0 +1,13 @@
+name: review_breakdown_test
+version: 1.0.0
+author: pjv <ezelspinguin@gmail.com>
+description: A demo for the component for review breakdowns like at The Verge.
+homepage: https://github.com/pjjjv/ReviewBreakdownTest
+dependencies:
+  browser: '>=0.10.0+2 <0.11.0'
+  polymer: '>=0.12.2+1 <0.13.0'
+  review_breakdown: '>=1.0.0 <1.1.0'
+transformers:
+- polymer:
+    entry_points:
+    - web/demo.html
